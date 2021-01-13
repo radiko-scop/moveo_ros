@@ -60,3 +60,7 @@ Let's go back to the tutorial, to see if one can do something. Following the tut
 ##### Simplifying the tutorial to be closer from the original one
 
 Looking at the original, one can see it is using the `joint_state_publisher` package, instead of the one we created during the tutorial (`state_publisher`), but their role is the same : telling everybody listening the state of our robot joint. The joint_state_publisher is still some kind of black magic to me, but I guess we'll understand more shortly.
+
+## porting moveit packages
+
+That is more complicated, because moveit is in the process of becoming moveit2, and as a consequence documentattion is not up to date, and some tools does not work ...
